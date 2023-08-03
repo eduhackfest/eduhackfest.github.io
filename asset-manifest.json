@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.57d2b26c.css",
-    "main.js": "/static/js/main.ec62805b.js",
+    "main.css": "/static/css/main.0f030b8b.css",
+    "main.js": "/static/js/main.080af19e.js",
     "static/media/ediploma-logo.png": "/static/media/ediploma-logo.83a53b8fbc3d1714ac99.png",
     "static/media/pattern4.png": "/static/media/pattern4.d70898849577572cae6e.png",
+    "static/media/agueda.jpeg": "/static/media/agueda.ebcc2625a3687cdc7305.jpeg",
     "static/media/boy.png": "/static/media/boy.9e16116bc4dbb678de51.png",
     "static/media/Terms of use.pdf": "/static/media/Terms of use.c225555664f55eb07685.pdf",
     "static/media/Privacy policy.pdf": "/static/media/Privacy policy.9854a8084b4f992772da.pdf",
@@ -20,11 +21,11 @@
     "static/media/icons8-dev-post.svg": "/static/media/icons8-dev-post.15a5555a98bb933f34f4e57e9ff48e69.svg",
     "static/media/icons8-linkedin-2.svg": "/static/media/icons8-linkedin-2.524f8b6e9272d9e92e763dc434da1a16.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
-    "main.57d2b26c.css.map": "/static/css/main.57d2b26c.css.map",
-    "main.ec62805b.js.map": "/static/js/main.ec62805b.js.map"
+    "main.0f030b8b.css.map": "/static/css/main.0f030b8b.css.map",
+    "main.080af19e.js.map": "/static/js/main.080af19e.js.map"
   },
   "entrypoints": [
-    "static/css/main.57d2b26c.css",
-    "static/js/main.ec62805b.js"
+    "static/css/main.0f030b8b.css",
+    "static/js/main.080af19e.js"
   ]
 }
