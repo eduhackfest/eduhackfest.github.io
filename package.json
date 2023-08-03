@@ -52,16 +52,16 @@
       "last 1 safari version"
     ]
   },
-  "description": "### Thanks [ella](https://github.com/eilla1) for design snippets",
+  "description": "### EduHackFest",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Limbo-Hacks/Limbo-hacks-website.git"
+    "url": "git+https://github.com/eduhackfest/eduhackfest.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
+    "url": "https://github.com/eduhackfest/eduhackfest.github.io/issues"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",

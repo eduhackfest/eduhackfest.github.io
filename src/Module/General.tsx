@@ -174,7 +174,7 @@ const TeamInfo = [
       role: 'Águeda Gómez',
       github: '',
       linkedin: '',
-      img: boy
+      img: ague
     },
     {
       Name: 'Alex Martínez',
