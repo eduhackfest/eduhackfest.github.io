@@ -66,8 +66,8 @@ export const Container = styled.div`
           position: relative;
         }
         &:hover {
-          background: #ff4a6f;
-          box-shadow: 0px 1px 5px #ff4a6f;
+          background: #FF6D42;
+          box-shadow: 0px 1px 5px #FF6D42;
           color: white;
         }
         &__event {
@@ -76,7 +76,7 @@ export const Container = styled.div`
             content: '';
             width: 6px;
             height: 6px;
-            background-color: #ff4a6f;
+            background-color: #FF6D42;
             bottom: -5px;
             left: 0;
             right: 0;

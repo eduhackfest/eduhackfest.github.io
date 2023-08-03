@@ -25,7 +25,7 @@ const Wrapper = styled.div`
     transition: top 1s;
     .nav-content {
       height: 35%;
-      background-color: rgba(50, 13, 136);
+      background-color: #FF6D42;
     }
   }
 `;
@@ -98,7 +98,7 @@ const NAVBAR = ({}) => {
             <ul>
               <li>
                 <Link to={`#home`}>
-                  <span className="links">Home </span>{' '}
+                  <span className="links">Inicio </span>{' '}
                 </Link>
               </li>
               <li>
@@ -108,20 +108,21 @@ const NAVBAR = ({}) => {
               </li>
               <li>
                 <Link to={`#prizes`}>
-                  <span className="links">prizes </span>{' '}
+                  <span className="links">Premios </span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to={`#sponsors`}>
-                  <span className="links">sponsors </span>{' '}
+                  <span className="links">Patrocinadores </span>{' '}
                 </Link>
               </li>
               <li>
                 <Link to={`#team`}>
-                  <span className="links">team </span>{' '}
+                  <span className="links">Equipo </span>{' '}
                 </Link>
               </li>
               <img
+                style={{cursor: 'pointer'}}
                 className="s-close"
                 onClick={() => setToggle(true)}
                 src={logoClose}
@@ -131,6 +132,7 @@ const NAVBAR = ({}) => {
           <div className="ease" />
         </Wrapper>
         <img
+          style={{cursor: 'pointer'}}
           className="s-open"
           onClick={() => setToggle(false)}
           src={hamLogo}

@@ -1,21 +1,21 @@
-import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion';
-import {useContext, useEffect} from 'react';
-import {CALENDER_VIEW} from '../../constants';
-import {calenderContext} from '../../Context/calender.context';
-import {Flexbox} from '../../elements/Flexbox';
-import {calenderMainLogic} from './calender.function';
+import { useContext, useEffect } from 'react';
+import { calenderContext } from '../../Context/calender.context';
+import { CALENDER_VIEW } from '../../constants';
+import { Flexbox } from '../../elements/Flexbox';
+import { calenderMainLogic } from './calender.function';
 import CalenderLayout from './calender.layout';
 
 import * as H from './style';
+import { AnimatePresence, motion } from 'framer-motion';
 
 const CalenderView = () => {
   const contextTesting = useContext(calenderContext);
   const {state, dispatch} = contextTesting;
   return (
     <div className="card-body">
-      {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map((day, j) => (
+      {['L', 'M', 'X', 'J', 'V', 'S', 'D'].map((day, j) => (
         <Flexbox key={j} alignCenter justifyCenter className="card-body-header">
-          <p color="#9E9E9E">{day}</p>
+          <p style={{color: '#182B49'}}>{day}</p>
         </Flexbox>
       ))}
       {state.dates.map((day: any, j: any) => (
@@ -64,10 +64,10 @@ const EventsView = () => {
           }}
         >
           <div className="event-subcard">
-            <h3>{event.title}</h3>
+            <h3 style={{color: '#182B49'}}>{event.title}</h3>
             <p>{event.timings}</p>
           </div>
-          <button>Add to calender</button>
+          {/* <button>Añadir al calendario</button> */}
         </H.Event>
       ))}
     </H.EventContainer>

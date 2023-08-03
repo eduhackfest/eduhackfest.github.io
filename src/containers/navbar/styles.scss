@@ -7,7 +7,7 @@
   z-index: 10;
   transition: height 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     background-color 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-  background-color: #121930;
+  background-color: #182B49;
 
   @media (min-width: 1000px) {
     height: 88px;
@@ -16,7 +16,7 @@
 
   @media (min-width: 1000px) {
     .nav_bar-offset-crossed {
-      background-color: #6A63B7;
+      background-color: #FF6D42;
       height: 72px;
       box-shadow: 0 8px 16px 0 rgba(145, 158, 171, 0.16);
     }

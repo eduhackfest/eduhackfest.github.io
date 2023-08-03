@@ -29,6 +29,23 @@ class Panel extends React.Component {
       height: `${isActive ? height : 0}px`
     };
 
+    if (content.includes('<a')) {
+      return (
+        <div className="panel" role="tabpanel" aria-expanded={isActive}>
+          <button className="panel__label" role="tab" onClick={activateTab}>
+            {label}
+          </button>
+          <div
+            className="panel__inner"
+            style={innerStyle}
+            aria-hidden={!isActive}
+          >
+            <div className="panel__content" dangerouslySetInnerHTML={{__html: content}} />
+          </div>
+        </div>
+      );
+    }
+
     return (
       <div className="panel" role="tabpanel" aria-expanded={isActive}>
         <button className="panel__label" role="tab" onClick={activateTab}>
@@ -39,7 +56,9 @@ class Panel extends React.Component {
           style={innerStyle}
           aria-hidden={!isActive}
         >
-          <p className="panel__content">{content}</p>
+          <div className="panel__content">
+            {content}
+            </div>
         </div>
       </div>
     );

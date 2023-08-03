@@ -23,16 +23,13 @@ const Member = ({info}: {info: any}) => {
   const {github, role, name, img, linkedin} = info;
   return (
     <div className="member">
-      <img src={img} alt="Limbo hack"></img>
+      <img src={img} alt="EduHackFest"></img>
       <div className="members-link">
         <h3>{name}</h3>
         <p>{role}</p>
-        <a href={github}>
-          <i className="fab fa-2x fa-github"></i>
-        </a>
-        <a href={linkedin}>
+        {/* <a href={linkedin}>
           <i className="fab fa-2x fa-linkedin"></i>
-        </a>
+        </a> */}
       </div>
     </div>
   );

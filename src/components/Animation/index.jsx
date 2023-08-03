@@ -6,7 +6,7 @@ export default function Waves(props) {
       className={`container ${props.type}`}
       style={{top: props.top, left: props.left}}
     >
-      <div className="bird-container bird-container--one">
+      {/* <div className="bird-container bird-container--one">
         <div className="bird bird--one"></div>
       </div>
 
@@ -20,7 +20,7 @@ export default function Waves(props) {
 
       <div className="bird-container bird-container--four">
         <div className="bird bird--four"></div>
-      </div>
+      </div> */}
     </div>
   );
 }

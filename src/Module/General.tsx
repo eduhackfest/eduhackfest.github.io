@@ -6,20 +6,9 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  * or you can provide a cloud link in src also
  */
 
-import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
-import Replit from './Assets/sponsorsLogos/replit.png';
-import sublime from './Assets/sponsorsLogos/sublime.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
-import lyin from './Assets/teami/lyin.jpg';
+import uji from './Assets/sponsorsLogos/uji-logo.png';
+import ediploma from './Assets/sponsorsLogos/ediploma-logo.png';
+import init from './Assets/sponsorsLogos/init-logo.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -28,38 +17,36 @@ import lyin from './Assets/teami/lyin.jpg';
 
 // Importing all Team members images  from Assets
 
-import me from './Assets/teami/me.png';
-import moon from './Assets/teami/moon.png';
-import Ryah from './Assets/teami/Ryah.jpg';
-import zoha from './Assets/teami/zoha.png';
+import alex from './Assets/teami/alex.png';
+import ague from './Assets/teami/agueda.jpeg';
+import boy from './Assets/boy.png'
+import ric from './Assets/teami/ricardo.jpeg';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
-  Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
+  TITLE: 'EduHackFest',
+  Typed_effect: ['24 horas de creación', 'Gana premios increíbles'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Únete a nosotros el 11 y 12 de Noviembre de 2023 para remodelar el futuro de la educación a distancia gracias al uso de tecnologías emergentes.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
-  HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+  JUDGES_FORM_LINK: '',
+  HACKERS_REGISTRATION_FORM_LINK: 'https://digieduhack.com/challenges/eduhackfest-beyond-education-with-xr-and-ai'
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  instagram: 'https://www.instagram.com/eduhackfest/',
+  discord: '',
+  linkedin: '',
+  twitter: 'https://twitter.com/eduhackfest',
+  devpost: '',
+  email: 'mailto:eduhackfestinit@gmail.com',
+  mail: 'eduhackfestinit@gmail.com'
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'Que es EduHackFest?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'EduHackFest es un hackathon de 24 horas que se lelvará a cabo el 11 y 12 de noviembre de 2023. Este hackathon forma parte de la fase de codiseño del proyecto Horizonte Europa e-DIPLOMA, cuyo propósito es mejorar el ecostistema del aprendizaje a distancia, haciendo uso de Realidad Aumentada / Realidad Virtual, Inteligencia Artificial (Machine Learning/Deep Learning), Tecnologías Interactivas, chatbots y gamificación en una nueva plataforma de e-learning. Además este hackahton se lleva a cabo bajo el paraguas del proyecto europeo DigiEduHack.',
   LOGO: hackathonLogo
 };
 
@@ -90,62 +77,27 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 11,
+  year: 2023
 };
 
 const schedule = [
   {
-    day: '8-11-2021',
+    day: '11-11-2023',
     events: [
       {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
+        title: 'EduHackFest empieza',
+        timings: '8 AM',
         link: 'https://google.com'
       }
     ]
   },
   {
-    day: '5-12-2021',
+    day: '12-11-2023',
     events: [
       {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      },
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '3-12-2021',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '1-12-2021',
-    events: [
-      {
-        title: 'Intro to deep learning',
-        timings: '12 AM - 1 Pm',
-        link: 'https://google.com'
-      }
-    ]
-  },
-  {
-    day: '1-1-2022',
-    events: [
-      {
-        title: 'Intro to phycycology',
-        timings: '12 AM - 1 Pm',
+        title: 'Se anuncian los ganadores',
+        timings: '8 PM',
         link: 'https://google.com'
       }
     ]
@@ -169,53 +121,34 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: 'overall First',
+      type: 'Ganador Local',
       content:
-        'First Overall prize will be given to a project that outstands all other submissions'
+        'Premio dado al equipo con la mejor solución para el reto de EduHackFest'
     },
     {
       icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'overall Second',
+      type: 'Mejor Presentación',
       content:
-        'Second Overall prize will be given to the second best project of the hackathon'
+        'Premio dado al equipo con la mejor presentación de su proyecto'
     },
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Third Second',
+      icon: <i className=" third fa-4x fas fa-book-open"></i>,
+      type: 'Gamificador de oro',
       content:
-        'Best third overall project of the hackathon will win some awesome prizes'
+        'Premio dado al equipo con mejor sistema de gamificación'
     }
-  ],
+  ]
+];
+
+const PrizeinfoDigi = [
   [
-    //Array 2
+    {},
+    //Array 1
     {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: 'Best Solo',
+      icon: <i className="first fas fa-5x fa-trophy"></i>,
+      type: 'Ganador Europeo',
       content:
-        'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
-    },
-    {
-      icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
-      type: 'More prizes',
-      content: 'More prizes will be revealed later'
+        'Premio dado al equipo con mejor proyecto en toda Europa'
     }
   ]
 ];
@@ -230,42 +163,49 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
-      linkedin: '',
-      img: me
-    },
-    {
-      Name: 'Moon',
-      role: 'Organizer',
+      Name: 'Rubén García',
+      role: 'Rubén García',
       github: '',
       linkedin: '',
-      img: moon
+      img: boy
     },
     {
-      Name: 'Erika',
-      role: 'Organizer',
+      Name: 'Águeda Gómez',
+      role: 'Águeda Gómez',
       github: '',
       linkedin: '',
-      img: Ryah
+      img: boy
+    },
+    {
+      Name: 'Alex Martínez',
+      role: 'Alex Martínez',
+      github: '',
+      linkedin: '',
+      img: boy
     }
   ],
   [
     //Array 2
     {
-      Name: 'Lyanola',
-      role: 'Organizer',
+      Name: 'Jon Andoni Fernández',
+      role: 'Jon Andoni Fernández',
       github: '',
       linkedin: '',
-      img: lyin
+      img: boy
     },
     {
-      Name: 'Zoheb',
-      role: 'Organizer',
+      Name: 'Ricardo Pardo',
+      role: 'Ricardo Pardo',
       github: '',
       linkedin: '',
-      img: zoha
+      img: boy
+    },
+    {
+      Name: 'Anna Tonda',
+      role: 'Anna Tonda',
+      github: '',
+      linkedin: '',
+      img: boy
     }
   ]
 ];
@@ -274,42 +214,25 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      Name: 'Inmaculada Remolar',
+      role: 'Inmaculada Remolar',
       github: '',
       linkedin: '',
-      img: me
+      img: boy
     },
     {
-      Name: 'Moon',
-      role: 'Organizer',
+      Name: 'Increa',
+      role: 'Increa',
       github: '',
       linkedin: '',
-      img: moon
+      img: boy
     },
     {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
+      Name: 'A decidir',
+      role: 'A decidir',
       github: '',
       linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
+      img: boy
     }
   ]
 ];
@@ -321,10 +244,7 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: uji}, {src: ediploma}, {src: init}], //Array 1
 ];
 
 /** Instructions
@@ -334,45 +254,45 @@ const frequentlyAskedQuestions = [
   [
     [
       {
-        label: 'What is a hackathon?',
+        label: '¿Qué es un hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'Un hackathon es un evento de 24 horas en el que "hackers" colaboran para crear / diseñar un software y / o un hardware que funcionen al final del evento.'
       },
       {
-        label: 'Who can attend?',
+        label: '¿Quién puede asistir?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'EduHackFest está abierto a universitarios, estudiantes de FP, investigadores, profesionales de la educación, innovadores e entusiastas de la educación digital. Si no te identificas bajo alguno de estos perfiles no te preocupes, ¡también puedes participar! Queremos que este hackathon sea un evento inclusivo y diverso.'
       },
       {
-        label: 'I am a first time hacker, what should I do?',
+        label: 'Nunca he participado en un hackathon, ¿Qué debo hacer?',
         content:
-          'No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.'
+          'No te preocupes si nunca has asistido a este tipo de eventos. Durante la ejecución del evento siempre tendrás a tu disposición a nuestro equipo para resolver cualquier tipo de duda. No obstante, no dudes en contactarnos al correo electrónico o a nuestras redes si lo necesitas.'
       },
       {
-        label: 'How team formation works?',
+        label: '¿Cómo funcionan los equipos?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          "Durante el registro se te pedirá indicar el nombre de tu equipo. Podrás formar un equipo antes de la competición y todos los miembros deberán introducir el mismo nombre. Si no tienes equipo tendrás que dejar esa opción en blanco, antes de que comience el evento nosotros te asignaremos a algún equipo."
       }
     ],
     [
       {
-        label: 'How to register myself in the hackathon?',
+        label: '¿Qué necesito para participar?',
         content:
-          'All you need is to fill our form above and join Discord, we will guide you through everything there'
+          'No necesitas nada en especial, solo muchas ganas de aprender y pasarlo bien. Los miembros del equipo serán los encargadas de traer todo el material necesario para el desarrollo de las actividades. Las posibles herramientas de software que empleemos serán gratuitas y daremos un breve curso para poder utilizarlas.'
       },
       {
-        label: 'I have more questions?',
+        label: '¿Tienes más preguntas?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Contactanos (eduhackfestinit@gmail.com) o por cualquiera de nuestras redes sociales. ¡Te ayudaremos en lo que necesites!'
       },
       {
-        label: 'Can i volunteer?',
+        label: '¿Qué es e-DIPLOMA?',
         content:
-          'Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you.'
+          "e-DIPLOMa es un proyecto Horizonte Europa (número de proyecto 101061424), que busca revolucionar el e-learning aplicando tecnologías emergentes. Si quieres saber más visita la web del proyecto <a href='https://e-diplomaproject.eu/' target='_blank'>e-DIPLOMA</a>."
       },
       {
-        label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        label: '¿Cuál es el premio?',
+        content: 'En este momento se están preparando diferentes premios para los ganadores. ¡Pronto tednremos más información! El ganador de este evento pasará a formar parte de los posibles ganadores de la competición de DigiEduHack, dondré obtarán a 5000€ de premio.'
       }
     ]
   ]
@@ -384,6 +304,7 @@ export {
   SOCIALS,
   FOOTER,
   Prizeinfo,
+  PrizeinfoDigi,
   sponsorLogos,
   TeamInfo,
   JudgesInfo,

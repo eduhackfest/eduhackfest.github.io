@@ -15,7 +15,7 @@ button {
   border-radius: 19px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  background-color: #6A63B7;
+  background-color: #182B49;
   font-weight: 300;
   position: relative;
 }
@@ -42,7 +42,6 @@ button {
 
 .register {
   margin-left: 1rem;
-  border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
 }
 

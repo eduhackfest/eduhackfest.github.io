@@ -18,10 +18,9 @@ const GithubTemplate = ({hideTemplate}) => {
     <div className="template">
       <div className="template-left">
         <p>
-          Join us to{' '}
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>,
-          where we will be hosting PUBLIC workshops, tech talks, panel
-          discussions, and career sessions!
+          ¡Únete a nosotros para 
+          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}> revolucionar</a> el e-learning{' '},
+          habrá charlas, talleres, ocio y muchas cosas más! ¡No te lo pierdas!
         </p>
       </div>
       <img onClick={hideTemplate} src={cross} />
@@ -55,16 +54,16 @@ const Footer = () => {
               <img src={Insta} alt="" />
             </a>
           </div>
-          <div className="social-icon">
+          {/* <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
               <img src={Dis} alt="" />
             </a>
-          </div>
-          <div className="social-icon">
+          </div> */}
+          {/* <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
               <img src={Linked} alt="" />
             </a>
-          </div>
+          </div> */}
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.email}>
               <img src={Mail} alt="" />
@@ -75,25 +74,20 @@ const Footer = () => {
               <img src={Twitter} alt="" />
             </a>
           </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-              <img src={DevPost} alt="" />
-            </a>
-          </div>
         </div>
         <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
+          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK} target="_blank">
+            <Btn type="Registro" overlay="Completa el proceso" />
           </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
+          {/* {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
-          )}
+          )} */}
         </div>
         <div className="footer_info">
           <p>
-            Contact us{' '}
+            Contactanos{' '}
             <a href={SOCIALS.email}>
               <em>{SOCIALS.mail}</em>
             </a>{' '}
@@ -119,7 +113,7 @@ const Footer = () => {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Made with ❤️</p>
+          <p>¡Estamos deseando contar contigo!</p>
         </div>
         {template && viewTemplate && (
           <GithubTemplate hideTemplate={() => setViewTemplate(false)} />

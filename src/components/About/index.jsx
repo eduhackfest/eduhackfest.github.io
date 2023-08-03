@@ -6,7 +6,7 @@ function LogoSectionAbout() {
   return (
     <div className="LogoSectionAbout">
       <h1>{MIDDLE_SECTION.TITLE}</h1>
-      <p>{MIDDLE_SECTION.LONG_DESCRIPTION}</p>
+      <p style={{textAlign: 'justify'}}>{MIDDLE_SECTION.LONG_DESCRIPTION}</p>
     </div>
   );
 }
@@ -14,7 +14,7 @@ function LogoSectionAbout() {
 function Logo() {
   return (
     <div className="logoS">
-      <img className="Logo" src={MIDDLE_SECTION.LOGO} alt="Limbohacks" />
+      <img className="Logo" src={MIDDLE_SECTION.LOGO} alt="EduHackFest" />
     </div>
   );
 }

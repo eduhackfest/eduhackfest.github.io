@@ -12,8 +12,7 @@ import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
-  SponsorsHead,
-  SponsorUS
+  SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
 import {JoinTeam, Member} from '../../components/Team';
 import {
@@ -21,6 +20,7 @@ import {
   frequentlyAskedQuestions,
   JudgesInfo,
   Prizeinfo,
+  PrizeinfoDigi,
   sponsorLogos,
   TeamInfo,
   TOP_SECTION
@@ -123,21 +123,20 @@ export default function HomePage() {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Premios" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}
 
         <Row className="prizesection non-coding">
-          <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
+          <PrizeHeading type="Premios DigiEduHack" />
+          {PrizeinfoDigi.map(PrizeGroup)}
         </Row>
 
         {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
-          <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
@@ -145,27 +144,27 @@ export default function HomePage() {
         {media && <Birds top="120vh" left="0vh" type="" />}
 
         {/* ********Team here ***** */}
-        <h1 id="team">Our Team</h1>
-        {FOOTER.JOIN_TEAM.required && (
+        <h1 id="team">Nuestro Equipo</h1>
+{/*         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
             formLink={FOOTER.JOIN_TEAM}
             content="Interested in joining our team"
           />
-        )}
+        )} */}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
 
         {/* ********Judges here ***** */}
 
-        <h1 id="team">Judges</h1>
-        {FOOTER.JOIN_TEAM.required && (
+        <h1 id="team">Jueces</h1>
+        {/* {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
             placeholder="Join our team"
             formLink={TOP_SECTION.JUDGES_FORM_LINK}
             content="Interested in being judge"
           />
-        )}
+        )} */}
         {JudgesInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>

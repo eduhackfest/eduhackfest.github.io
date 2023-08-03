@@ -1,10 +1,10 @@
-import {SOCIALS, TOP_SECTION} from '../../Module/General';
+import { TOP_SECTION } from '../../Module/General';
 import MytypedComponent from '../Typed/index.js';
 import './style.css';
 
 const Btn = props => {
   return (
-    <button className={props.class}>
+    <button className={props.class} style={{background: '#FF6D42'}}>
       <i className={props.ico}></i>
       {props.type}
       <div className="overlay">
@@ -27,8 +27,8 @@ const Myinfo = () => {
   return (
     <div className="Myinfo">
       <About />
-      <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
-      <div className="join_dis">
+      <p style={{textAlign: 'justify'}}> {TOP_SECTION.SHORT_DESCRIPTION}</p>
+      {/* <div className="join_dis">
         <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
           <Btn
             ico="fab fa-2x fa-discord"
@@ -37,19 +37,14 @@ const Myinfo = () => {
             overlay="Click the link"
           />
         </a>
-      </div>
+      </div> */}
       <div className="buttom-group">
-        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
-          {' '}
-          <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
-        </a>
-
-        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK} target='_blank'>
           {' '}
           <Btn
             class="register"
-            type="Register "
-            overlay="Hackers registration"
+            type="Registrate"
+            overlay="Registro de EduHackers"
           />
         </a>
       </div>
@@ -57,4 +52,5 @@ const Myinfo = () => {
   );
 };
 
-export {Btn, Myinfo};
+export { Btn, Myinfo };
+

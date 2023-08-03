@@ -24,20 +24,22 @@ const CalenderLayout: React.FC<CalenderLayoutProps> = ({
   const {state, dispatch} = contextTesting as any;
   return (
     <H.Container>
-      <Flexbox className="card-top" flexRow>
+      <Flexbox className="card-top" flexRow style={{background: '#FF6D42'}}>
         <h3 style={{fontSize: 20}} color="white">
-          Events schedule {months[state.month - 1]} {state.year}
+          Calendario de Eventos {months[state.month - 1]} {state.year}
         </h3>
         <Flexbox flexRow className="card-top-inner">
           <Flexbox
+            style={{background: '#182B49', color: 'white'}}
             justifyCenter
             alignCenter
             className="card-top-inner-item"
             onClick={() => dispatch(handleActionBack)}
           >
-            P
+            <i className="fas fa-angle-left"></i>
           </Flexbox>
           <Flexbox
+            style={{background: '#182B49', color: 'white'}}
             justifyCenter
             alignCenter
             className={`card-top-inner-item ${
@@ -45,7 +47,7 @@ const CalenderLayout: React.FC<CalenderLayoutProps> = ({
             }`}
             onClick={() => dispatch(handleActionProcced)}
           >
-            N
+            <i className="fas fa-angle-right"></i>
           </Flexbox>
         </Flexbox>
       </Flexbox>
