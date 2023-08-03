@@ -1,7 +1,6 @@
 {
   "name": "eduhackfest",
   "version": "0.1.0",
-  "homepage": "https://eduhackfest.github.io/eduhackfest",
   "private": true,
   "dependencies": {
     "@mdx-js/loader": "^2.3.0",
