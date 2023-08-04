@@ -132,7 +132,7 @@ const NAVBAR = ({}) => {
           <div className="ease" />
         </Wrapper>
         <img
-          style={{cursor: 'pointer'}}
+          style={{cursor: 'pointer', marginLeft: '-5em'}}
           className="s-open"
           onClick={() => setToggle(false)}
           src={hamLogo}

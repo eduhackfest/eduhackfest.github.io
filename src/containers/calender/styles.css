@@ -1,0 +1,29 @@
+.card-events {
+    overflow-x: hidden;
+}
+
+.card-events::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.card-events::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.card-events::-webkit-scrollbar-button:increment,.card-events::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.card-events::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.card-events::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.card-events::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}

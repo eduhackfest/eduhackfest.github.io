@@ -5,6 +5,7 @@
   font-family: 'Montserrat', sans-serif;
   position: relative;
 }
+
 .mediaInfo {
   margin-top: 10vh;
   background-size: auto 100vh;
@@ -45,9 +46,10 @@ h1 {
 }
 .logoSection {
   text-align: center;
-  padding: 20vh 10vh 0 10vh;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  padding: 0 0 0 0;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin: 5vh 2vh 2vh 2vh;
 }
 .members {
   padding: 0vh 10vh 0 10vh;
@@ -67,7 +69,7 @@ h1 {
 }
 
 .sponsorSection {
-  padding: 17vh 18vh 0 18vh;
+  padding: 10vh 18vh 0 18vh;
   margin-top: -10vh;
   margin-top: 0vh;
 }
@@ -76,6 +78,12 @@ h1 {
   margin: 0 auto;
   padding: 17vh 18vh 0 18vh;
   margin-top: -16vh;
+}
+
+@media (max-width: 770px) {
+  #team{
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 570px) {
@@ -97,15 +105,14 @@ h1 {
 
   .prizesection {
     margin: 5vh 0 0 0;
-    padding: 17vh 0 0 4vh;
+    /* padding: 17vh 0 0 4vh; */
   }
   .sponsorSection {
     padding: 0;
     margin: 0;
-    margin: 12rem auto;
+    margin: 10rem 0 0 0;
   }
   .logoSection {
     text-align: center;
-    padding: 20vh 0vh 0 0vh;
   }
 }

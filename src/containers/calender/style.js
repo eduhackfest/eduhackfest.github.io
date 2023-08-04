@@ -42,15 +42,17 @@ export const Container = styled.div`
   .card-body {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto;
-
-    overflow: scroll;
+    overflow: hidden;
+    
 
     &-header {
+      text-align: center
       width: 45px;
       height: 45px;
       border-radius: 8px;
     }
     &-inner {
+      text-align: center
       width: 45px;
       height: 45px;
       border-radius: 8px;

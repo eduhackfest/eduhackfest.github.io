@@ -1,30 +1,29 @@
-import {UseMedia} from 'hooks/useMedia';
-import {useState} from 'react';
+import { UseMedia } from 'hooks/useMedia';
+import { useState } from 'react';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import {Logo, LogoSectionAbout} from '../../components/About/index.jsx';
-import {Accordion} from '../../components/Accordian/index.jsx';
+import {
+  JudgesInfo,
+  Prizeinfo,
+  PrizeinfoDigi,
+  TeamInfo,
+  /* FOOTER, */
+  frequentlyAskedQuestions,
+  sponsorLogos,
+} from '../../Module/General';
+import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
+import { Accordion } from '../../components/Accordian/index.jsx';
 import Birds from '../../components/Animation';
 import Footer from '../../components/Footer/index.jsx';
-import {Myinfo} from '../../components/Landing/index.jsx';
-import {FirstPrize, PrizeHeading} from '../../components/Prizes/index.jsx';
+import { Myinfo } from '../../components/Landing/index.jsx';
+import { FirstPrize, PrizeHeading } from '../../components/Prizes/index.jsx';
 import Media from '../../components/Socials/index.jsx';
 import {
   Sponsor,
   SponsorsHead
 } from '../../components/Sponsors/sponsors.jsx';
-import {JoinTeam, Member} from '../../components/Team';
-import {
-  FOOTER,
-  frequentlyAskedQuestions,
-  JudgesInfo,
-  Prizeinfo,
-  PrizeinfoDigi,
-  sponsorLogos,
-  TeamInfo,
-  TOP_SECTION
-} from '../../Module/General';
+import { Member } from '../../components/Team';
 import MyCalender from '../calender';
 import './about.css';
 import pattern from './assets/pattern4.png';
@@ -35,7 +34,7 @@ const SponsorGroup = (props, index) => {
       {props.map((s, i) => (
         <Col key={i} className="" sm={12} lg={4} md={6}>
           {' '}
-          <Sponsor srcx={s.src} />{' '}
+          <Sponsor srcx={s.src} target={s.target}/>{' '}
         </Col>
       ))}
     </Row>
@@ -107,10 +106,10 @@ export default function HomePage() {
       <Container fluid>
         {/* Logo section  */}
         <Row className=" logoSection">
-          <Col className="info-div" sm={12} lg={8} md={8}>
+          <Col className="info-div" sm={12} lg={7} md={7}>
             <LogoSectionAbout />
           </Col>
-          <Col className="info-div" sm={12} lg={4} md={4}>
+          <Col className="info-div" sm={12} lg={5} md={5}>
             <Logo />
           </Col>
         </Row>

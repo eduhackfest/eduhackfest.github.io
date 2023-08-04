@@ -9,7 +9,7 @@ function SponsorsHead() {
 function Sponsor(props) {
   return (
     <div className="Sponsor ">
-      <img src={props.srcx} alt="EduHackFest"></img>
+      <a href={props.target} target='_blank'><img src={props.srcx} alt="EduHackFest"></img></a>
     </div>
   );
 }

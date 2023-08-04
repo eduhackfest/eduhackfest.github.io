@@ -14,17 +14,26 @@
 .shead{
     font-size: 6rem;
     margin-bottom: 6rem;
-   margin-top: -3rem;
+    margin-top: -3rem;
 }
 
 .sponsorUS {
   margin-bottom: 7rem;
 }
 
+@media (max-width: 770px) {
+  .shead{
+    margin-top:0;
+    font-size: 4rem;
+  }
+}
+
+
 /* more smaller */
 @media  (max-width: 570px){
   .shead{
     margin-top:0;
+    font-size: 4rem;
   }
   .Sponsor img{
 

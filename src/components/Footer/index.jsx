@@ -2,10 +2,10 @@ import {useEffect, useState} from 'react';
 import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
 import {Btn} from '../Landing/index.jsx';
 import cross from './assets/cross.svg';
-import DevPost from './assets/icons8-dev-post.svg';
-import Dis from './assets/icons8-discord.svg';
+// import DevPost from './assets/icons8-dev-post.svg';
+// import Dis from './assets/icons8-discord.svg';
 import Insta from './assets/icons8-instagram.svg';
-import Linked from './assets/icons8-linkedin-2.svg';
+// import Linked from './assets/icons8-linkedin-2.svg';
 import Mail from './assets/icons8-mail.svg';
 import Twitter from './assets/icons8-twitter.svg';
 import PrivacyPolicy from './assets/Privacy policy.pdf';
@@ -19,11 +19,11 @@ const GithubTemplate = ({hideTemplate}) => {
       <div className="template-left">
         <p>
           ¡Únete a nosotros para 
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}> revolucionar</a> el e-learning{' '},
+          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK} target='_blank'> revolucionar</a> el e-learning{' '},
           habrá charlas, talleres, ocio y muchas cosas más! ¡No te lo pierdas!
         </p>
       </div>
-      <img onClick={hideTemplate} src={cross} />
+      <img onClick={hideTemplate} src={cross} alt='EduHackFest'/>
     </div>
   );
 };

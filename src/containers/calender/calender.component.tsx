@@ -4,7 +4,7 @@ import { CALENDER_VIEW } from '../../constants';
 import { Flexbox } from '../../elements/Flexbox';
 import { calenderMainLogic } from './calender.function';
 import CalenderLayout from './calender.layout';
-
+import './styles.css';
 import * as H from './style';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -15,7 +15,7 @@ const CalenderView = () => {
     <div className="card-body">
       {['L', 'M', 'X', 'J', 'V', 'S', 'D'].map((day, j) => (
         <Flexbox key={j} alignCenter justifyCenter className="card-body-header">
-          <p style={{color: '#182B49'}}>{day}</p>
+          <p style={{color: '#182B49'}}><b>{day}</b></p>
         </Flexbox>
       ))}
       {state.dates.map((day: any, j: any) => (
@@ -35,7 +35,7 @@ const CalenderView = () => {
                 data: state.dates[j].events
               });
             } else {
-              alert('No events');
+              alert('No hay ningún evento programado para este día');
             }
           }}
           key={j}
@@ -55,7 +55,7 @@ const EventsView = () => {
   const contextTesting = useContext(calenderContext);
   const {state} = contextTesting as any;
   return (
-    <H.EventContainer>
+    <H.EventContainer style={{overflowX: 'hidden'}}>
       {state.selectedData.map((event: any, j: number) => (
         <H.Event
           key={j}

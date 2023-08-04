@@ -18,13 +18,14 @@ import init from './Assets/sponsorsLogos/init-logo.png';
 // Importing all Team members images  from Assets
 
 import alex from './Assets/teami/alex.png';
-import ague from './Assets/teami/agueda.jpeg';
+import ague from './Assets/teami/agueda.png';
 import boy from './Assets/boy.png'
-import ric from './Assets/teami/ricardo.jpeg';
+import ric from './Assets/teami/ricardo.png';
+import jon from './Assets/teami/jon.png';
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
-  Typed_effect: ['24 horas de creación', 'Gana premios increíbles'],
+  Typed_effect: ['24 horas de creación', 'Gana premios increíbles', 'Mejora el e-learning'],
   SHORT_DESCRIPTION:
     'Únete a nosotros el 11 y 12 de Noviembre de 2023 para remodelar el futuro de la educación a distancia gracias al uso de tecnologías emergentes.',
   IMG_SRC: boy,
@@ -46,25 +47,25 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: 'Que es EduHackFest?',
   LONG_DESCRIPTION:
-    'EduHackFest es un hackathon de 24 horas que se lelvará a cabo el 11 y 12 de noviembre de 2023. Este hackathon forma parte de la fase de codiseño del proyecto Horizonte Europa e-DIPLOMA, cuyo propósito es mejorar el ecostistema del aprendizaje a distancia, haciendo uso de Realidad Aumentada / Realidad Virtual, Inteligencia Artificial (Machine Learning/Deep Learning), Tecnologías Interactivas, chatbots y gamificación en una nueva plataforma de e-learning. Además este hackahton se lleva a cabo bajo el paraguas del proyecto europeo DigiEduHack.',
+    'EduHackFest es un hackathon de 24 horas que se llevará a cabo el 11 y 12 de noviembre de 2023 en el Edificio Espitec 2, de la Universitat Jaume I. Este hackathon forma parte de la fase de codiseño del proyecto Horizonte Europa e-DIPLOMA, cuyo propósito es mejorar el ecostistema del aprendizaje a distancia, haciendo uso de Realidad Aumentada / Realidad Virtual, Inteligencia Artificial (Machine Learning / Deep Learning), Tecnologías Interactivas, Chatbots y Gamificación en una nueva plataforma de e-learning. En este hackathon los participantes deberán diseñar o implementar módulos y aplicaciones de vanguardia que pueden integrarse perfectamente en plataformas de e-learning, como los sistemas de gestión del aprendizaje (LMS) o las plataformas de experiencia del aprendizaje (LXP). Además este hackahton se lleva a cabo bajo el paraguas del proyecto europeo DigiEduHack.',
   LOGO: hackathonLogo
 };
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: ''
   },
   JOIN_TEAM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
+    src: ''
   },
   Privacy_policy: {
-    required: true,
+    required: false,
     src: ''
   },
   Terms_of_use: {
-    required: true,
+    required: false,
     src: ''
   }
 };
@@ -88,6 +89,26 @@ const schedule = [
       {
         title: 'EduHackFest empieza',
         timings: '8 AM',
+        link: 'https://google.com'
+      },
+      {
+        title: 'Evento de apertura',
+        timings: '8:15 AM',
+        link: 'https://google.com'
+      },
+      {
+        title: 'Taller 1',
+        timings: '10:30 AM',
+        link: 'https://google.com'
+      },
+      {
+        title: 'Taller 2',
+        timings: '11:30 AM',
+        link: 'https://google.com'
+      },
+      {
+        title: 'Taller 3',
+        timings: '12:30 AM',
         link: 'https://google.com'
       }
     ]
@@ -174,7 +195,7 @@ const TeamInfo = [
       role: 'Águeda Gómez',
       github: '',
       linkedin: '',
-      img: ague
+      img: boy
     },
     {
       Name: 'Alex Martínez',
@@ -244,7 +265,7 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: uji}, {src: ediploma}, {src: init}], //Array 1
+  [{src: uji, target: 'https://www.uji.es/'}, {src: ediploma, target: 'https://e-diplomaproject.eu/'}, {src: init, target: 'https://www.init.uji.es/'}], //Array 1
 ];
 
 /** Instructions
