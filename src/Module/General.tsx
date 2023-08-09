@@ -282,7 +282,7 @@ const frequentlyAskedQuestions = [
       {
         label: '¿Quién puede asistir?',
         content:
-          'EduHackFest está abierto a universitarios, estudiantes de FP, investigadores, profesionales de la educación, innovadores e entusiastas de la educación digital. Si no te identificas bajo alguno de estos perfiles no te preocupes, ¡también puedes participar! Queremos que este hackathon sea un evento inclusivo y diverso.'
+          'EduHackFest está abierto a universitarios, estudiantes de FP, investigadores, profesionales de la educación, innovadores y entusiastas de la educación digital. Si no te identificas bajo alguno de estos perfiles no te preocupes, ¡también puedes participar! Queremos que este hackathon sea un evento inclusivo y diverso.'
       },
       {
         label: 'Nunca he participado en un hackathon, ¿Qué debo hacer?',
@@ -299,21 +299,21 @@ const frequentlyAskedQuestions = [
       {
         label: '¿Qué necesito para participar?',
         content:
-          'No necesitas nada en especial, solo muchas ganas de aprender y pasarlo bien. Los miembros del equipo serán los encargadas de traer todo el material necesario para el desarrollo de las actividades. Las posibles herramientas de software que empleemos serán gratuitas y daremos un breve curso para poder utilizarlas.'
+          'No necesitas nada en especial, solo muchas ganas de aprender y pasarlo bien. Los miembros del equipo serán los encargadas de traer todo el material necesario para el desarrollo de las actividades. Las posibles herramientas de software que emplearemos serán gratuitas y daremos un breve curso para poder utilizarlas.'
       },
       {
         label: '¿Tienes más preguntas?',
         content:
-          'Contactanos (eduhackfestinit@gmail.com) o por cualquiera de nuestras redes sociales. ¡Te ayudaremos en lo que necesites!'
+          'Contáctanos (eduhackfestinit@gmail.com) o por cualquiera de nuestras redes sociales. ¡Te ayudaremos en lo que necesites!'
       },
       {
         label: '¿Qué es e-DIPLOMA?',
         content:
-          "e-DIPLOMa es un proyecto Horizonte Europa (número de proyecto 101061424), que busca revolucionar el e-learning aplicando tecnologías emergentes. Si quieres saber más visita la web del proyecto <a href='https://e-diplomaproject.eu/' target='_blank'>e-DIPLOMA</a>."
+          "e-DIPLOMA es un proyecto Horizonte Europa (número de proyecto 101061424), que busca revolucionar el e-learning aplicando tecnologías emergentes. Si quieres saber más visita la web del proyecto <a href='https://e-diplomaproject.eu/' target='_blank'>e-DIPLOMA</a>."
       },
       {
         label: '¿Cuál es el premio?',
-        content: 'En este momento se están preparando diferentes premios para los ganadores. ¡Pronto tednremos más información! El ganador de este evento pasará a formar parte de los posibles ganadores de la competición de DigiEduHack, dondré obtarán a 5000€ de premio.'
+        content: 'En este momento se están preparando diferentes premios para los ganadores. ¡Pronto tendremos más información! El ganador de este evento pasará a formar parte de los posibles ganadores de la competición de DigiEduHack, dondé obtarán a 5000€ de premio.'
       }
     ]
   ]

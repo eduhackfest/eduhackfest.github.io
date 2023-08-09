@@ -15,6 +15,12 @@
 
 }
 
+@media  (max-width: 570px){
+    .PrizeHeading h1{
+      font-size: 3.5rem;
+    }
+}
+
 .PrizeIcon {
     width: 100%;
     display: flex;

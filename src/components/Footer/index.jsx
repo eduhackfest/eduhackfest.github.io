@@ -1,15 +1,15 @@
-import {useEffect, useState} from 'react';
-import {FOOTER, SOCIALS, TOP_SECTION} from '../../Module/General';
-import {Btn} from '../Landing/index.jsx';
+import { useEffect, useState } from 'react';
+import { FOOTER, SOCIALS, TOP_SECTION } from '../../Module/General';
+import { Btn } from '../Landing/index.jsx';
 import cross from './assets/cross.svg';
 // import DevPost from './assets/icons8-dev-post.svg';
 // import Dis from './assets/icons8-discord.svg';
 import Insta from './assets/icons8-instagram.svg';
 // import Linked from './assets/icons8-linkedin-2.svg';
-import Mail from './assets/icons8-mail.svg';
-import Twitter from './assets/icons8-twitter.svg';
+import TwitterX from './assets/icons8-twitterx.svg';
 import PrivacyPolicy from './assets/Privacy policy.pdf';
 import TermsOfUse from './assets/Terms of use.pdf';
+import Mail from './assets/icons8-mail.svg';
 //------------------------------------------------------------------
 import './style.scss';
 
@@ -71,7 +71,7 @@ const Footer = () => {
           </div>
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-              <img src={Twitter} alt="" />
+              <img src={TwitterX} alt="" />
             </a>
           </div>
         </div>

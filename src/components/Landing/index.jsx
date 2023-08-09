@@ -43,7 +43,7 @@ const Myinfo = () => {
           {' '}
           <Btn
             class="register"
-            type="Registrate"
+            type="Regístrate"
             overlay="Registro de EduHackers"
           />
         </a>
