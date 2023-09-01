@@ -87,28 +87,13 @@ const schedule = [
     day: '11-11-2023',
     events: [
       {
-        title: 'EduHackFest empieza',
-        timings: '8 AM',
-        link: 'https://google.com'
-      },
-      {
         title: 'Evento de apertura',
-        timings: '8:15 AM',
+        timings: '9:00 AM',
         link: 'https://google.com'
       },
       {
-        title: 'Taller 1',
-        timings: '10:30 AM',
-        link: 'https://google.com'
-      },
-      {
-        title: 'Taller 2',
-        timings: '11:30 AM',
-        link: 'https://google.com'
-      },
-      {
-        title: 'Taller 3',
-        timings: '12:30 AM',
+        title: 'EduHackFest comienza',
+        timings: '9:30 AM',
         link: 'https://google.com'
       }
     ]
@@ -118,7 +103,7 @@ const schedule = [
     events: [
       {
         title: 'Se anuncian los ganadores',
-        timings: '8 PM',
+        timings: '08:30 PM',
         link: 'https://google.com'
       }
     ]
@@ -195,14 +180,14 @@ const TeamInfo = [
       role: 'Águeda Gómez',
       github: '',
       linkedin: '',
-      img: boy
+      img: ague
     },
     {
       Name: 'Alex Martínez',
       role: 'Alex Martínez',
       github: '',
       linkedin: '',
-      img: boy
+      img: alex
     }
   ],
   [
@@ -212,14 +197,14 @@ const TeamInfo = [
       role: 'Jon Andoni Fernández',
       github: '',
       linkedin: '',
-      img: boy
+      img: jon
     },
     {
       Name: 'Ricardo Pardo',
       role: 'Ricardo Pardo',
       github: '',
       linkedin: '',
-      img: boy
+      img: ric
     },
     {
       Name: 'Anna Tonda',
@@ -235,15 +220,15 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'Inmaculada Remolar',
-      role: 'Inmaculada Remolar',
+      Name: 'A decidir',
+      role: 'A decidir',
       github: '',
       linkedin: '',
       img: boy
     },
     {
-      Name: 'Increa',
-      role: 'Increa',
+      Name: 'A decidir',
+      role: 'A decidir',
       github: '',
       linkedin: '',
       img: boy
@@ -292,7 +277,7 @@ const frequentlyAskedQuestions = [
       {
         label: '¿Cómo funcionan los equipos?',
         content:
-          "Durante el registro se te pedirá indicar el nombre de tu equipo. Podrás formar un equipo antes de la competición y todos los miembros deberán introducir el mismo nombre. Si no tienes equipo tendrás que dejar esa opción en blanco, antes de que comience el evento nosotros te asignaremos a algún equipo."
+          "Durante el registro se te pedirá indicar la información de tu equipo. Podrás formar un equipo antes de la competición y rellenar la información correspondiente. Si no tienes equipo tendrás que dejar esa opción en blanco, antes de que comience el evento nosotros te asignaremos a algún equipo."
       }
     ],
     [
@@ -313,7 +298,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: '¿Cuál es el premio?',
-        content: 'En este momento se están preparando diferentes premios para los ganadores. ¡Pronto tendremos más información! El ganador de este evento pasará a formar parte de los posibles ganadores de la competición de DigiEduHack, dondé obtarán a 5000€ de premio.'
+        content: 'En este momento se están preparando diferentes premios para los ganadores. ¡Pronto tendremos más información! El ganador de este evento pasará a formar parte de los posibles ganadores de la competición de DigiEduHack, donde optarán a 5000€ de premio.'
       }
     ]
   ]
