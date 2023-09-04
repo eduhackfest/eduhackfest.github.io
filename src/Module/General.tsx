@@ -22,6 +22,7 @@ import ague from './Assets/teami/agueda.png';
 import boy from './Assets/boy.png'
 import ric from './Assets/teami/ricardo.png';
 import jon from './Assets/teami/jon.png';
+import rub from './Assets/teami/ruben.png'
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
@@ -173,7 +174,7 @@ const TeamInfo = [
       role: 'Rubén García',
       github: '',
       linkedin: '',
-      img: boy
+      img: rub
     },
     {
       Name: 'Águeda Gómez',
