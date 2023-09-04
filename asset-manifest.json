@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c9fb1078.css",
-    "main.js": "/static/js/main.cf17f6dd.js",
+    "main.js": "/static/js/main.55f18ce4.js",
     "static/media/ricardo.png": "/static/media/ricardo.cff087c90cc4f85d57cc.png",
     "static/media/alex.png": "/static/media/alex.f2fec9062405eb99229c.png",
     "static/media/jon.png": "/static/media/jon.c9130c77368497a26a10.png",
+    "static/media/ruben.png": "/static/media/ruben.c83e6edaa78d4a55136d.png",
     "static/media/agueda.png": "/static/media/agueda.b643406675141605d426.png",
     "static/media/ediploma-logo.png": "/static/media/ediploma-logo.83a53b8fbc3d1714ac99.png",
     "static/media/pattern4.png": "/static/media/pattern4.d70898849577572cae6e.png",
@@ -22,10 +23,10 @@
     "static/media/icons8-twitterx.svg": "/static/media/icons8-twitterx.8f8dd8b68ebd953e9501d7b63112e23f.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
     "main.c9fb1078.css.map": "/static/css/main.c9fb1078.css.map",
-    "main.cf17f6dd.js.map": "/static/js/main.cf17f6dd.js.map"
+    "main.55f18ce4.js.map": "/static/js/main.55f18ce4.js.map"
   },
   "entrypoints": [
     "static/css/main.c9fb1078.css",
-    "static/js/main.cf17f6dd.js"
+    "static/js/main.55f18ce4.js"
   ]
 }
