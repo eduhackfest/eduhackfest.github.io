@@ -23,6 +23,7 @@ import boy from './Assets/boy.png'
 import ric from './Assets/teami/ricardo.png';
 import jon from './Assets/teami/jon.png';
 import rub from './Assets/teami/ruben.png'
+import anna from './Assets/teami/anna.png'
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
@@ -212,7 +213,7 @@ const TeamInfo = [
       role: 'Anna Tonda',
       github: '',
       linkedin: '',
-      img: boy
+      img: anna
     }
   ]
 ];
