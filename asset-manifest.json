@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c9fb1078.css",
-    "main.js": "/static/js/main.49f1a597.js",
+    "main.js": "/static/js/main.e32ab746.js",
     "static/media/ricardo.png": "/static/media/ricardo.cff087c90cc4f85d57cc.png",
     "static/media/alex.png": "/static/media/alex.f2fec9062405eb99229c.png",
     "static/media/anna.png": "/static/media/anna.a94adf6eb1736bf93f93.png",
@@ -13,9 +13,9 @@
     "static/media/boy.png": "/static/media/boy.9e16116bc4dbb678de51.png",
     "static/media/Terms of use.pdf": "/static/media/Terms of use.c225555664f55eb07685.pdf",
     "static/media/Privacy policy.pdf": "/static/media/Privacy policy.9854a8084b4f992772da.pdf",
-    "static/media/hackathonLogo.png": "/static/media/hackathonLogo.b81a3371368671650635.png",
     "static/media/init-logo.png": "/static/media/init-logo.66ebef0bc224d83b6793.png",
     "static/media/uji-logo.png": "/static/media/uji-logo.0d3a2e79e789418e81a1.png",
+    "static/media/hackathonLogo.svg": "/static/media/hackathonLogo.3bf788356a33caefe880b65af32f8c00.svg",
     "index.html": "/index.html",
     "static/media/icons8-mail.svg": "/static/media/icons8-mail.650ff70b29a0d7a164b707e43c20be47.svg",
     "static/media/icons8-instagram.svg": "/static/media/icons8-instagram.89b88306863c7e01b4d4730dde9b7b9c.svg",
@@ -24,10 +24,10 @@
     "static/media/icons8-twitterx.svg": "/static/media/icons8-twitterx.8f8dd8b68ebd953e9501d7b63112e23f.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
     "main.c9fb1078.css.map": "/static/css/main.c9fb1078.css.map",
-    "main.49f1a597.js.map": "/static/js/main.49f1a597.js.map"
+    "main.e32ab746.js.map": "/static/js/main.e32ab746.js.map"
   },
   "entrypoints": [
     "static/css/main.c9fb1078.css",
-    "static/js/main.49f1a597.js"
+    "static/js/main.e32ab746.js"
   ]
 }
