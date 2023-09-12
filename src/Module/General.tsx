@@ -1,4 +1,4 @@
-import hackathonLogo from './Assets/hackathonLogo.png';
+import hackathonLogo from './Assets/hackathonLogo.svg';
 
 // Importing all sponsors logos from Assets
 /** Put all your Team member image inside folder `Team Images`
@@ -33,7 +33,7 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: '',
   JUDGES_FORM_LINK: '',
-  HACKERS_REGISTRATION_FORM_LINK: 'https://digieduhack.com/challenges/eduhackfest-beyond-education-with-xr-and-ai'
+  HACKERS_REGISTRATION_FORM_LINK: 'https://forms.office.com/r/keBXpM7RW2'
 };
 
 const SOCIALS = {
@@ -47,9 +47,9 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'Que es EduHackFest?',
+  TITLE: '¿Qué es EduHackFest?',
   LONG_DESCRIPTION:
-    'EduHackFest es un hackathon de 24 horas que se llevará a cabo el 11 y 12 de noviembre de 2023 en el Edificio Espitec 2, de la Universitat Jaume I. Este hackathon forma parte de la fase de codiseño del proyecto Horizonte Europa e-DIPLOMA, cuyo propósito es mejorar el ecostistema del aprendizaje a distancia, haciendo uso de Realidad Aumentada / Realidad Virtual, Inteligencia Artificial (Machine Learning / Deep Learning), Tecnologías Interactivas, Chatbots y Gamificación en una nueva plataforma de e-learning. En este hackathon los participantes deberán diseñar o implementar módulos y aplicaciones de vanguardia que pueden integrarse perfectamente en plataformas de e-learning, como los sistemas de gestión del aprendizaje (LMS) o las plataformas de experiencia del aprendizaje (LXP). Además este hackahton se lleva a cabo bajo el paraguas del proyecto europeo DigiEduHack.',
+    'EduHackFest es un hackathon de 24 horas que se llevará a cabo el 11 y 12 de noviembre de 2023 en el Edificio Espaitec 2, de la Universitat Jaume I. Este hackathon forma parte de la fase de codiseño del proyecto Horizonte Europa e-DIPLOMA, cuyo propósito es mejorar el ecosistema del aprendizaje a distancia, haciendo uso de Realidad Aumentada / Realidad Virtual, Inteligencia Artificial (Machine Learning / Deep Learning), Tecnologías Interactivas, Chatbots y Gamificación en una nueva plataforma de e-learning. En este hackathon los equipos que participen deberán diseñar o implementar módulos y aplicaciones de vanguardia que pueden integrarse perfectamente en plataformas de e-learning, como los sistemas de gestión del aprendizaje (LMS) o las plataformas de experiencia del aprendizaje (LXP). Además este hackathon se lleva a cabo bajo el paraguas del proyecto europeo DigiEduHack.',
   LOGO: hackathonLogo
 };
 
