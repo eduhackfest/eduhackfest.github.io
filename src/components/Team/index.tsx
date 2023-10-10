@@ -23,13 +23,26 @@ const Member = ({info}: {info: any}) => {
   const {github, role, name, img, linkedin} = info;
   return (
     <div className="member">
-      <img src={img} alt="EduHackFest"></img>
+      {
+        img ?
+        <img src={img} alt="member" /> :
+        <></>
+      }
       <div className="members-link">
         <h3>{name}</h3>
         <p>{role}</p>
-        {/* <a href={linkedin}>
-          <i className="fab fa-2x fa-linkedin"></i>
-        </a> */}
+        { linkedin ?
+          <a href={linkedin}>
+            <i className="fab fa-2x fa-linkedin"></i>
+          </a> :
+          <></>
+        }
+        { github ?
+          <a href={github} target='_blank'>
+            <i className="fab fa-2x fa-instagram"></i>
+          </a> :
+          <></>
+        }
       </div>
     </div>
   );

@@ -11,6 +11,7 @@ import {
   /* FOOTER, */
   frequentlyAskedQuestions,
   sponsorLogos,
+  MentoresInfo
 } from '../../Module/General';
 import { Logo, LogoSectionAbout } from '../../components/About/index.jsx';
 import { Accordion } from '../../components/Accordian/index.jsx';
@@ -153,6 +154,9 @@ export default function HomePage() {
         )} */}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
+
+        <h1 id="team">Mentores</h1>
+        {MentoresInfo.map(TeamMembers)}
 
         {/* ********Judges here ***** */}
 

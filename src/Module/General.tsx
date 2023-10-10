@@ -24,6 +24,8 @@ import ric from './Assets/teami/ricardo.png';
 import jon from './Assets/teami/jon.png';
 import rub from './Assets/teami/ruben.png'
 import anna from './Assets/teami/anna.png'
+import elena from './Assets/teami/elena.png'
+import olena from './Assets/teami/olena.png'
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
@@ -171,22 +173,22 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rubén García',
-      role: 'Rubén García',
+      name: 'Rubén García',
+      role: '',
       github: '',
       linkedin: '',
       img: rub
     },
     {
-      Name: 'Águeda Gómez',
-      role: 'Águeda Gómez',
+      name: 'Águeda Gómez',
+      role: '',
       github: '',
       linkedin: '',
       img: ague
     },
     {
-      Name: 'Alex Martínez',
-      role: 'Alex Martínez',
+      name: 'Alex Martínez',
+      role: '',
       github: '',
       linkedin: '',
       img: alex
@@ -195,22 +197,22 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: 'Jon Andoni Fernández',
-      role: 'Jon Andoni Fernández',
+      name: 'Jon Andoni Fernández',
+      role: '',
       github: '',
       linkedin: '',
       img: jon
     },
     {
-      Name: 'Ricardo Pardo',
-      role: 'Ricardo Pardo',
+      name: 'Ricardo Pardo',
+      role: '',
       github: '',
       linkedin: '',
       img: ric
     },
     {
-      Name: 'Anna Tonda',
-      role: 'Anna Tonda',
+      name: 'Anna Tonda',
+      role: '',
       github: '',
       linkedin: '',
       img: anna
@@ -222,25 +224,52 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: 'A decidir',
-      role: 'A decidir',
+      name: 'A decidir',
+      role: '',
       github: '',
       linkedin: '',
       img: boy
     },
     {
-      Name: 'A decidir',
-      role: 'A decidir',
+      name: 'A decidir',
+      role: '',
       github: '',
       linkedin: '',
       img: boy
     },
     {
-      Name: 'A decidir',
-      role: 'A decidir',
+      name: 'A decidir',
+      role: '',
       github: '',
       linkedin: '',
       img: boy
+    }
+  ]
+];
+
+const MentoresInfo = [
+  [
+    //Array 1
+    {
+      name: '',
+      role: '',
+      github: '',
+      linkedin: '', //https://es.linkedin.com/in/elena-shliakhovchuk-phd-370aa52b
+      img: ''
+    },
+    {
+      name: 'Elena Mulet',
+      role: 'Profesora de métodos de diseño',
+      github: 'https://www.instagram.com/metodopolis/',
+      linkedin: '',
+      img: elena
+    },
+    {
+      name: '',
+      role: '',
+      github: '',
+      linkedin: '',
+      img: ''
     }
   ]
 ];
@@ -318,5 +347,6 @@ export {
   JudgesInfo,
   frequentlyAskedQuestions,
   schedule,
-  calenderStartingDate
+  calenderStartingDate,
+  MentoresInfo
 };
