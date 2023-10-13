@@ -251,11 +251,11 @@ const MentoresInfo = [
   [
     //Array 1
     {
-      name: '',
-      role: '',
+      name: 'Elena Shliakhovchuk',
+      role: 'Experta en aprendizaje basado en juegos',
       github: '',
-      linkedin: '', //https://es.linkedin.com/in/elena-shliakhovchuk-phd-370aa52b
-      img: ''
+      linkedin: 'https://es.linkedin.com/in/elena-shliakhovchuk-phd-370aa52b',
+      img: olena
     },
     {
       name: 'Elena Mulet',
