@@ -296,6 +296,11 @@ const frequentlyAskedQuestions = [
           'Un hackathon es un evento de 24 horas en el que "hackers" colaboran para crear / diseñar un software y / o un hardware que funcionen al final del evento.'
       },
       {
+        label: '¿En qué consiste este desafío?',
+        content:
+          'El desafío implica trabajar en equipo para diseñar y/o implementar un recurso educativo que utilice la Realidad Virtual Inmersiva, la Realidad Aumentada o la Inteligencia artificial para enseñar un tema específico y que pueda formar parte de un curso de educación a distancia.'
+      },
+      {
         label: '¿Quién puede asistir?',
         content:
           'EduHackFest está abierto a universitarios, estudiantes de FP, investigadores, profesionales de la educación, innovadores y entusiastas de la educación digital. Si no te identificas bajo alguno de estos perfiles no te preocupes, ¡también puedes participar! Queremos que este hackathon sea un evento inclusivo y diverso.'
