@@ -68,6 +68,14 @@ h1 {
   width: 100%;
 }
 
+.sponsor-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .sponsorSection {
   padding: 10vh 18vh 0 18vh;
   margin-top: -10vh;

@@ -9,14 +9,14 @@ import hackathonLogo from './Assets/hackathonLogo.svg';
 import uji from './Assets/sponsorsLogos/uji-logo.png';
 import ediploma from './Assets/sponsorsLogos/ediploma-logo.png';
 import init from './Assets/sponsorsLogos/init-logo.png';
+import brainstorm from './Assets/sponsorsLogos/brainstorm-logo.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
  */
 
-// Importing all Team members images  from Assets
-
+//Team
 import alex from './Assets/teami/alex.png';
 import ague from './Assets/teami/agueda.png';
 import boy from './Assets/boy.png'
@@ -24,8 +24,12 @@ import ric from './Assets/teami/ricardo.png';
 import jon from './Assets/teami/jon.png';
 import rub from './Assets/teami/ruben.png'
 import anna from './Assets/teami/anna.png'
+//Mentors
 import elena from './Assets/teami/elena.png'
 import olena from './Assets/teami/olena.png'
+import annat from './Assets/teami/annat.png'
+//Judges
+import inma from './Assets/teami/inma.png'
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
@@ -152,8 +156,6 @@ const Prizeinfo = [
 
 const PrizeinfoDigi = [
   [
-    {},
-    //Array 1
     {
       icon: <i className="first fas fa-5x fa-trophy"></i>,
       type: 'Ganador Europeo',
@@ -224,11 +226,11 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      name: 'A decidir',
+      name: 'Inmaculada Remolar',
       role: '',
       github: '',
       linkedin: '',
-      img: boy
+      img: inma
     },
     {
       name: 'A decidir',
@@ -265,11 +267,11 @@ const MentoresInfo = [
       img: elena
     },
     {
-      name: '',
-      role: '',
+      name: 'Anna Tolosa',
+      role: 'Responsable de Comunicación y EU Project Manager',
       github: '',
-      linkedin: '',
-      img: ''
+      linkedin: 'https://es.linkedin.com/in/annatolosa',
+      img: annat
     }
   ]
 ];
@@ -281,7 +283,8 @@ const MentoresInfo = [
  */
 
 const sponsorLogos = [
-  [{src: uji, target: 'https://www.uji.es/'}, {src: ediploma, target: 'https://e-diplomaproject.eu/'}, {src: init, target: 'https://www.init.uji.es/'}], //Array 1
+  [{src: uji, target: 'https://www.uji.es/'}, {src: ediploma, target: 'https://e-diplomaproject.eu/'}], //Array 1
+  [{src: init, target: 'https://www.init.uji.es/'}, {src: brainstorm, target: 'https://www.brainstorm3d.com/'}, ]
 ];
 
 /** Instructions

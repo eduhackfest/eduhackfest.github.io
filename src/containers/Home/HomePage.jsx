@@ -31,9 +31,10 @@ import pattern from './assets/pattern4.png';
 
 const SponsorGroup = (props, index) => {
   return (
-    <Row key={index}>
+    <Row key={index} className='sponsor-row'>
+      {console.log(props.length ? props.length : 1)}
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={6}>
+        <Col key={i} className="" sm={12} lg={12 / props.length} md={12 / props.length}>
           {' '}
           <Sponsor srcx={s.src} target={s.target}/>{' '}
         </Col>
@@ -47,7 +48,7 @@ const PrizeGroup = (props, index) => {
   return (
     <Row key={index}>
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
+        <Col key={i} className="" sm={12} lg={12 / props.length} md={12 / props.length}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
         </Col>
       ))}
@@ -60,7 +61,7 @@ const TeamMembers = (props, index) => {
   return (
     <Row key={index} className="members">
       {props.map((s, i) => (
-        <Col key={i} className="" sm={12} lg={4} md={4}>
+        <Col key={i} className="" sm={12} lg={12 / props.length} md={12 / props.length}>
           <Member info={s} />
         </Col>
       ))}

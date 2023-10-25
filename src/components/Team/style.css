@@ -12,10 +12,8 @@
 .member img {
   width: 25rem;
   height: 25rem;
-  /* border-radius: 50%; */
   display: block;
   margin: 0 auto;
-  /* border: 5px solid rgb(255, 194, 252); */
 }
 .members-link {
   text-align: center;

@@ -25,7 +25,7 @@ const Member = ({info}: {info: any}) => {
     <div className="member">
       {
         img ?
-        <img src={img} alt="member" /> :
+        <img src={img} alt="member"/> :
         <></>
       }
       <div className="members-link">
