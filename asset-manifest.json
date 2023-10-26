@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5f8f0ba.css",
-    "main.js": "/static/js/main.87fdf356.js",
+    "main.css": "/static/css/main.c346b350.css",
+    "main.js": "/static/js/main.6eebc0bb.js",
     "static/media/ricardo.png": "/static/media/ricardo.cff087c90cc4f85d57cc.png",
     "static/media/alex.png": "/static/media/alex.f2fec9062405eb99229c.png",
     "static/media/olena.png": "/static/media/olena.a1cc291fcff45bf67f3e.png",
     "static/media/anna.png": "/static/media/anna.a94adf6eb1736bf93f93.png",
+    "static/media/raquel.png": "/static/media/raquel.728ed6f776b649b2155f.png",
     "static/media/jon.png": "/static/media/jon.ea00ae079c5a68c2cf6a.png",
     "static/media/annat.png": "/static/media/annat.64e123c0ec6f7c5d9c74.png",
     "static/media/inma.png": "/static/media/inma.8eadd067ee0f8f6b931c.png",
@@ -28,11 +29,11 @@
     "static/media/ham-c.svg": "/static/media/ham-c.8ab7632d2e8f5e05abfb112d11ada71d.svg",
     "static/media/icons8-twitterx.svg": "/static/media/icons8-twitterx.8f8dd8b68ebd953e9501d7b63112e23f.svg",
     "static/media/ham.svg": "/static/media/ham.a63ab4de035aef5e3f6e82283f1bae0a.svg",
-    "main.d5f8f0ba.css.map": "/static/css/main.d5f8f0ba.css.map",
-    "main.87fdf356.js.map": "/static/js/main.87fdf356.js.map"
+    "main.c346b350.css.map": "/static/css/main.c346b350.css.map",
+    "main.6eebc0bb.js.map": "/static/js/main.6eebc0bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5f8f0ba.css",
-    "static/js/main.87fdf356.js"
+    "static/css/main.c346b350.css",
+    "static/js/main.6eebc0bb.js"
   ]
 }
