@@ -28,6 +28,7 @@ import anna from './Assets/teami/anna.png'
 import elena from './Assets/teami/elena.png'
 import olena from './Assets/teami/olena.png'
 import annat from './Assets/teami/annat.png'
+import raquel from './Assets/teami/raquel.png'
 //Judges
 import inma from './Assets/teami/inma.png'
 
@@ -272,6 +273,13 @@ const MentoresInfo = [
       github: '',
       linkedin: 'https://es.linkedin.com/in/annatolosa',
       img: annat
+    },
+    {
+      name: 'Raquel Adanero',
+      role: 'Responsable de Proyectos Europeos e Internacionales en EuroFUE-UJI',
+      github: '',
+      linkedin: 'https://es.linkedin.com/in/raquel-adanero-garcia-8223a913b',
+      img: raquel
     }
   ]
 ];

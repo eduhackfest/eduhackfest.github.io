@@ -156,7 +156,7 @@ export default function HomePage() {
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
 
-        <h1 id="team">Mentores</h1>
+        <h1 id="team">Mentoras</h1>
         {MentoresInfo.map(TeamMembers)}
 
         {/* ********Judges here ***** */}
