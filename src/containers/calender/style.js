@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   background-color: white;
   border-radius: 8px;
-
+  overflow: hidden;
   margin: 20px 0;
 
   .card-top {

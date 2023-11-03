@@ -10,6 +10,7 @@ import uji from './Assets/sponsorsLogos/uji-logo.png';
 import ediploma from './Assets/sponsorsLogos/ediploma-logo.png';
 import init from './Assets/sponsorsLogos/init-logo.png';
 import brainstorm from './Assets/sponsorsLogos/brainstorm-logo.png';
+import cuatroochenta from './Assets/sponsorsLogos/cuatroochenta-logo.png';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -31,6 +32,7 @@ import annat from './Assets/teami/annat.png'
 import raquel from './Assets/teami/raquel.png'
 //Judges
 import inma from './Assets/teami/inma.png'
+import gustavo from './Assets/teami/gustavo.png'
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
@@ -96,14 +98,54 @@ const schedule = [
     day: '11-11-2023',
     events: [
       {
-        title: 'Evento de apertura',
-        timings: '9:00 AM',
-        link: 'https://google.com'
+        title: 'Registro',
+        timings: '9:00 - 9:30',
+        link: ''
       },
       {
-        title: 'EduHackFest comienza',
-        timings: '9:30 AM',
-        link: 'https://google.com'
+        title: 'Inauguración',
+        timings: '9:30 - 10:00',
+        link: ''
+      },
+      {
+        title: 'Configuración de equipos',
+        timings: '10:00 - 10:30',
+        link: ''
+      },
+      {
+        title: 'Se abre zona Coffee Break 1',
+        timings: '10:30',
+        link: ''
+      },
+      {
+        title: 'La generación de ideas - Elena Mulet',
+        timings: '11:00 - 12:00',
+        link: ''
+      },
+      {
+        title: 'Figma: Prototipa tu solución',
+        timings: '12:30 - 13:30',
+        link: ''
+      },
+      {
+        title: 'Pausa para la comida',
+        timings: '13:30 - 15:00',
+        link: ''
+      },
+      {
+        title: 'Testing de tecnologías emergentes',
+        timings: '16:30 - 17:30',
+        link: ''
+      },
+      {
+        title: 'Se abre zona Coffee Break 2',
+        timings: '17:30',
+        link: ''
+      },
+      {
+        title: 'Fin del primer día',
+        timings: '21:00',
+        link: ''
       }
     ]
   },
@@ -111,9 +153,39 @@ const schedule = [
     day: '12-11-2023',
     events: [
       {
-        title: 'Se anuncian los ganadores',
-        timings: '08:30 PM',
-        link: 'https://google.com'
+        title: 'Comienza el segundo día',
+        timings: '9:00',
+        link: ''
+      },      
+      {
+        title: 'Presentaciones impactantes - Anna y Raquel',
+        timings: '10:30 - 11:30',
+        link: 'https://www.eurofue.com/'
+      },      
+      {
+        title: 'Se abre zona Coffee Break 3',
+        timings: '11:30',
+        link: ''
+      },      
+      {
+        title: 'Edison Ecosystem - Presentaciones en RV/RA',
+        timings: '12:30 - 13:30',
+        link: 'https://www.brainstorm3d.com/es/products/edison/'
+      },      
+      {
+        title: 'Pausa para la comida',
+        timings: '13:30 - 15:00',
+        link: ''
+      },      
+      {
+        title: 'Se abre zona Coffee Break 4',
+        timings: '17:30',
+        link: ''
+      },      
+      {
+        title: 'Presentaciones, entrega de premios y acto de clausura',
+        timings: '20:00 - 21:00',
+        link: ''
       }
     ]
   }
@@ -234,18 +306,11 @@ const JudgesInfo = [
       img: inma
     },
     {
-      name: 'A decidir',
+      name: 'Gustavo Adolfo Casañ',
       role: '',
       github: '',
-      linkedin: '',
-      img: boy
-    },
-    {
-      name: 'A decidir',
-      role: '',
-      github: '',
-      linkedin: '',
-      img: boy
+      linkedin: 'https://es.linkedin.com/in/gustavo-adolfo-casa%C3%B1-nu%C3%B1ez-4b07b9105',
+      img: gustavo
     }
   ]
 ];
@@ -291,8 +356,8 @@ const MentoresInfo = [
  */
 
 const sponsorLogos = [
-  [{src: uji, target: 'https://www.uji.es/'}, {src: ediploma, target: 'https://e-diplomaproject.eu/'}], //Array 1
-  [{src: init, target: 'https://www.init.uji.es/'}, {src: brainstorm, target: 'https://www.brainstorm3d.com/'}, ]
+  [{src: uji, target: 'https://www.uji.es/'}, {src: ediploma, target: 'https://e-diplomaproject.eu/'}, {src: init, target: 'https://www.init.uji.es/'}], //Array 1
+  [{src: brainstorm, target: 'https://www.brainstorm3d.com/'}, {src: cuatroochenta, target: 'https://cuatroochenta.com/'}]
 ];
 
 /** Instructions
