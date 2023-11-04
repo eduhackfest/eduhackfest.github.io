@@ -118,9 +118,9 @@ const schedule = [
         link: ''
       },
       {
-        title: 'La generación de ideas - Elena Mulet',
+        title: 'Desbloquea tu creatividad individualmente y con compañía - Elena Mulet',
         timings: '11:00 - 12:00',
-        link: ''
+        link: 'https://www.instagram.com/metodopolis/'
       },
       {
         title: 'Figma: Prototipa tu solución',
@@ -143,6 +143,11 @@ const schedule = [
         link: ''
       },
       {
+        title: 'Gamificación en la Educación del Futuro - Elena Shliakhovchuk',
+        timings: '18:00 - 18:45',
+        link: 'https://es.linkedin.com/in/elena-shliakhovchuk-phd-370aa52b'
+      },
+      {
         title: 'Fin del primer día',
         timings: '21:00',
         link: ''
@@ -158,7 +163,7 @@ const schedule = [
         link: ''
       },      
       {
-        title: 'Presentaciones impactantes - Anna y Raquel',
+        title: 'Presentaciones impactantes - Anna Tolosa y Raquel Adanero',
         timings: '10:30 - 11:30',
         link: 'https://www.eurofue.com/'
       },      
