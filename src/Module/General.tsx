@@ -212,19 +212,13 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
+      icon: <i className="second fas fa-5x fa-trophy"></i>,
       type: 'Ganador Local',
       content:
-        'Premio dado al equipo con la mejor solución para el reto de EduHackFest'
+        'Premio dado al equipo con la mejor solución para el reto'
     },
     {
-      icon: <i className=" second fas fa-4x fa-medal"></i>,
-      type: 'Mejor Presentación',
-      content:
-        'Premio dado al equipo con la mejor presentación de su proyecto'
-    },
-    {
-      icon: <i className=" third fa-4x fas fa-book-open"></i>,
+      icon: <i className=" third fa-5x fas fa-medal"></i>,
       type: 'Gamificador de oro',
       content:
         'Premio dado al equipo con mejor sistema de gamificación'
