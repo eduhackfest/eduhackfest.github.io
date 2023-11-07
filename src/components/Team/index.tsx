@@ -20,7 +20,7 @@ const JoinTeam: React.FC<IJoinTeam> = ({placeholder, formLink, content}) => {
 };
 
 const Member = ({info}: {info: any}) => {
-  const {github, role, name, img, linkedin} = info;
+  const {github, role, name, img, linkedin, web} = info;
   return (
     <div className="member">
       {
@@ -32,7 +32,7 @@ const Member = ({info}: {info: any}) => {
         <h3>{name}</h3>
         <p>{role}</p>
         { linkedin ?
-          <a href={linkedin}>
+          <a href={linkedin} target='_blank'>
             <i className="fab fa-2x fa-linkedin"></i>
           </a> :
           <></>
@@ -40,6 +40,12 @@ const Member = ({info}: {info: any}) => {
         { github ?
           <a href={github} target='_blank'>
             <i className="fab fa-2x fa-instagram"></i>
+          </a> :
+          <></>
+        }
+        { web ?
+          <a href={web} target='_blank'>
+            <i className="fas fa-globe fa-lg"></i>
           </a> :
           <></>
         }

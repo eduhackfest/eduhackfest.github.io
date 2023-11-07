@@ -11,7 +11,7 @@ import ediploma from './Assets/sponsorsLogos/ediploma-logo.png';
 import init from './Assets/sponsorsLogos/init-logo.png';
 import brainstorm from './Assets/sponsorsLogos/brainstorm-logo.png';
 import cuatroochenta from './Assets/sponsorsLogos/cuatroochenta-logo.png';
-
+import facsa from './Assets/sponsorsLogos/facsa-logo.png';
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
  * or you can provide a cloud link in src
@@ -33,6 +33,7 @@ import raquel from './Assets/teami/raquel.png'
 //Judges
 import inma from './Assets/teami/inma.png'
 import gustavo from './Assets/teami/gustavo.png'
+import laura from './Assets/teami/laura.png'
 
 const TOP_SECTION = {
   TITLE: 'EduHackFest',
@@ -64,11 +65,11 @@ const MIDDLE_SECTION = {
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
-    required: true,
+    required: false,
     src: ''
   },
   JOIN_TEAM: {
-    required: true,
+    required: false,
     src: ''
   },
   Privacy_policy: {
@@ -302,14 +303,24 @@ const JudgesInfo = [
       role: '',
       github: '',
       linkedin: '',
+      web: 'https://www.init.uji.es/?team=inmaculada-remolar',
       img: inma
     },
     {
       name: 'Gustavo Adolfo Casañ',
       role: '',
       github: '',
+      web: '',
       linkedin: 'https://es.linkedin.com/in/gustavo-adolfo-casa%C3%B1-nu%C3%B1ez-4b07b9105',
       img: gustavo
+    },
+    {
+      name: 'Laura Menéndez Monzonís',
+      role: '',
+      github: '',
+      web: '',
+      linkedin: 'https://www.linkedin.com/in/laura-menendez-monzonis/',
+      img: laura
     }
   ]
 ];
@@ -356,7 +367,7 @@ const MentoresInfo = [
 
 const sponsorLogos = [
   [{src: uji, target: 'https://www.uji.es/'}, {src: ediploma, target: 'https://e-diplomaproject.eu/'}, {src: init, target: 'https://www.init.uji.es/'}], //Array 1
-  [{src: brainstorm, target: 'https://www.brainstorm3d.com/'}, {src: cuatroochenta, target: 'https://cuatroochenta.com/'}]
+  [{src: brainstorm, target: 'https://www.brainstorm3d.com/'}, {src: cuatroochenta, target: 'https://cuatroochenta.com/'}, {src: facsa, target: 'https://www.facsa.com/'}]
 ];
 
 /** Instructions
