@@ -57,10 +57,10 @@ const EventsView = () => {
   return (
     <H.EventContainer style={{overflowX: 'hidden'}}>
       {state.selectedData.map((event: any, j: number) => (
-        <H.Event
+        <H.Event style={{cursor: event.link ? 'pointer' : ''}}
           key={j}
           onClick={() => {
-            window.open(event.link, '_blank');
+            if (event.link) window.open(event.link, '_blank');
           }}
         >
           <div className="event-subcard">
