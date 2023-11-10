@@ -9,6 +9,7 @@ import Insta from './assets/icons8-instagram.svg';
 import TwitterX from './assets/icons8-twitterx.svg';
 import PrivacyPolicy from './assets/Privacy policy.pdf';
 import TermsOfUse from './assets/Terms of use.pdf';
+import Bases from './assets/Bases EduHackFest.pdf';
 import Mail from './assets/icons8-mail.svg';
 //------------------------------------------------------------------
 import './style.scss';
@@ -111,6 +112,16 @@ const Footer = () => {
               className="privacy-policy"
             >
               <p>Terms of Use</p>
+            </a>
+          )}
+          {FOOTER.Bases.required && (
+            <a
+              href={Bases}
+              download
+              target="blank"
+              className="privacy-policy"
+            >
+              <p>Bases del Consurso</p>
             </a>
           )}
           <p>¡Estamos deseando contar contigo!</p>

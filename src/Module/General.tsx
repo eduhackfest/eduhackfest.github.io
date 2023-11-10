@@ -79,6 +79,10 @@ const FOOTER = {
   Terms_of_use: {
     required: false,
     src: ''
+  },
+  Bases: {
+    required: true,
+    src: ''
   }
 };
 
